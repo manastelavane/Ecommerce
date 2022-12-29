@@ -70,8 +70,8 @@ const NewProduct = ({ history }) => {
   const createProductImagesChange = (e) => {
     const files = Array.from(e.target.files);
 
-    setImages([]);
-    setImagesPreview([]);
+    // setImages([]);
+    // setImagesPreview([]);
 
     files.forEach((file) => {
       const reader = new FileReader();
@@ -160,7 +160,7 @@ const NewProduct = ({ history }) => {
                 name="avatar"
                 accept="image/*"
                 onChange={createProductImagesChange}
-                multiple
+                multiple={true}
               />
             </div>
 

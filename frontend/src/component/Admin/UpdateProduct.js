@@ -105,9 +105,9 @@ const UpdateProduct = ({ history, match }) => {
 
   const updateProductImagesChange = (e) => {
     const files = Array.from(e.target.files);
-
-    setImages([]);
-    setImagesPreview([]);
+    // console.log(files)
+    // setImages([]);
+    // setImagesPreview([]);
     setOldImages([]);
 
     files.forEach((file) => {
@@ -135,7 +135,7 @@ const UpdateProduct = ({ history, match }) => {
             encType="multipart/form-data"
             onSubmit={updateProductSubmitHandler}
           >
-            <h1>Create Product</h1>
+            <h1>Update Product</h1>
 
             <div>
               <SpellcheckIcon />
@@ -202,7 +202,7 @@ const UpdateProduct = ({ history, match }) => {
                 name="avatar"
                 accept="image/*"
                 onChange={updateProductImagesChange}
-                multiple
+                multiple={true}
               />
             </div>
 
@@ -224,7 +224,7 @@ const UpdateProduct = ({ history, match }) => {
               type="submit"
               disabled={loading ? true : false}
             >
-              Create
+              Update
             </Button>
           </form>
         </div>
