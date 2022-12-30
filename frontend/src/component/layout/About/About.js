@@ -1,8 +1,8 @@
 import React from "react";
 import "./aboutSection.css";
 import { Button, Typography, Avatar } from "@material-ui/core";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import InstagramIcon from "@material-ui/icons/Instagram";
+// import YouTubeIcon from "@material-ui/icons/YouTube";
+// import InstagramIcon from "@material-ui/icons/Instagram";
 const About = () => {
   const visitTwitter = () => {
     window.location = "https://twitter.com/TelavaneManas";
@@ -12,7 +12,7 @@ const About = () => {
       <div></div>
       <div className="aboutSectionGradient"></div>
       <div className="aboutSectionContainer">
-        <Typography component="h1">About Us</Typography>
+        <Typography component="h1">About ME</Typography>
 
         <div>
           <div>
@@ -27,10 +27,10 @@ const About = () => {
             </Button>
             
           </div>
-          <div style={{display:"flex", justifyContent:"space-evenly" }} className="aboutSectionContainer2">
-            <div>🔭 I’m currently working on improving my Backend Development Skills.</div>
+          <div style={{display:"flex", justifyContent:"center",flexDirection:'column' }} className="aboutSectionContainer2">
+            <div>🔭 I’m currently working on improving my Development Skills.</div>
             <div>🌱 I’m currently learning Data Structures and Algorithms.</div>
-            <div>💻 Certified Doubt Solver at CodeChef.</div>
+            <div>💻 Worked as Doubt Solver at CodeChef.</div>
             <div>4⭐ coder on CodeChef.</div>
           </div>
         </div>

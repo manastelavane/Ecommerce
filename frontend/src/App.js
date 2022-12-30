@@ -69,6 +69,8 @@ function App() {
   window.addEventListener("contextmenu", (e) => e.preventDefault());
 
   return (
+    <div className="wholeapp">
+      
     <Router>
       <Header />
 
@@ -180,14 +182,15 @@ function App() {
         />
 
         <Route
-          component={
-            window.location.pathname === "/process/payment" ? null : NotFound
-          }
+          path='/:name'
+          component={NotFound}
         />
+        
       </Switch>
 
       <Footer />
     </Router>
+    </div>
   );
 }
 

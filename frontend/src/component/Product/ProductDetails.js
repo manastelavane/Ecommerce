@@ -96,7 +96,8 @@ const ProductDetails = ({ match }) => {
       alert.success("Review Submitted Successfully");
       dispatch({ type: NEW_REVIEW_RESET });
     }
-    dispatch(getProductDetails(match.params.id));
+    dispatch(getProductDetails(match.params.id))
+    window.scrollTo(0,0);
   }, [dispatch, match.params.id, error, alert, reviewError, success]);
 
   return (

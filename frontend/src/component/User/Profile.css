@@ -66,7 +66,7 @@
 
 .profileContainer > div:last-child > div > p {
   color: rgba(0, 0, 0, 0.418);
-  font: 400 1vmax cursive;
+  font: 400 1vmax "Roboto";
   margin: 0.2vmax;
 }
 
@@ -95,8 +95,11 @@
 @media screen and (max-width: 600px) {
   .profileContainer {
     flex-direction: column;
+    align-items: flex-start;
   }
-
+  .profileContainer > div:last-child {
+    padding-top: 0;
+  }
   .profileContainer > div:first-child > h1 {
     font: 500 3.2vmax "Roboto";
     transform: translateY(-2vmax);
@@ -117,7 +120,7 @@
   }
 
   .profileContainer > div:last-child > div > p {
-    font: 400 2vmax cursive;
+    font: 400 2vmax "Roboto";
     margin: 0.5vmax 0;
   }
 

@@ -9,3 +9,11 @@
   height: 56px;
   border-radius: 100%;
 }
+@media screen and (max-width: 600px) {
+  .header{
+    font-size: 2px !important;
+  }
+  .logoReactNavbar {
+    width: 50%!important;
+  }
+}

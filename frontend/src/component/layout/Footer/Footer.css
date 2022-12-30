@@ -1,5 +1,5 @@
 footer {
-  margin-top: 10vmax;
+  margin-top: 12vmax;
   padding: 2vmax;
   background-color: rgb(34, 33, 33);
   color: white;
@@ -8,9 +8,9 @@ footer {
 }
 
 .leftFooter {
-  width: 20%;
+  width: 25%;
   display: flex;
-
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -31,24 +31,25 @@ footer {
 }
 
 .midFooter {
-  width: 60%;
+  width: 50%;
 
   text-align: center;
 }
 
 .midFooter > h1 {
-  font-size: 4vmax;
+  font-size: 2.5vmax;
   font-family: "Roboto";
   color: #eb4034;
 }
 .midFooter > p {
-  max-width: 60%;
+  max-width: 50%;
+  font-size: 1vmax;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 1vmax auto;
 }
 
 .rightFooter {
-  width: 20%;
+  width: 25%;
 
   display: flex;
   flex-direction: column;
@@ -70,4 +71,23 @@ footer {
 
 .rightFooter > a:hover {
   color: #eb4034;
+}
+
+.leftFooter>button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vmax;
+  /* margin-bottom: 5vmax; */
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1vmax;
+  transition: all 0.5s;
+  /* width: 10vmax; */
+  font: 500 1.2vmax "Roboto";
+}
+.icon{
+  padding-right: 5px;
 }

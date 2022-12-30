@@ -11,6 +11,7 @@ import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
 
 const categories = [
+  "All",
   "Laptop",
   "Footwear",
   "Bottom",
@@ -58,6 +59,7 @@ const Products = ({ match }) => {
     }
 
     dispatch(getProduct(keyword, currentPage, price, category, ratings));
+    window.scrollTo(0,0)
   }, [dispatch, keyword, currentPage, price, category, ratings, alert, error]);
 
   return (
@@ -93,7 +95,7 @@ const Products = ({ match }) => {
                 <li
                   className="category-link"
                   key={category}
-                  onClick={() => setCategory(category)}
+                  onClick={() => {category==="All"?setCategory(""):setCategory(category)}}
                 >
                   {category}
                 </li>

@@ -27,8 +27,11 @@
 
 .cartPage {
   padding: 5vmax;
+  margin-top: 60px;
 }
-
+.cartContainer{
+  margin: 10px 0;
+}
 .cartHeader {
   background-color: tomato;
   width: 90%;
@@ -87,7 +90,7 @@
   height: 8vmax;
   align-items: center;
   box-sizing: border-box;
-  font: 300 1vmax cursive;
+  font: 300 1vmax "Roboto";
   justify-content: flex-end;
   color: rgba(0, 0, 0, 0.753);
 }
@@ -127,6 +130,7 @@
   .cartPage {
     padding: 0;
     min-height: 60vh;
+    width: fit-content;
   }
 
   .cartHeader {

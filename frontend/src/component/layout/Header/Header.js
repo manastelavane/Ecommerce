@@ -1,14 +1,15 @@
 import React from "react";
 import { ReactNavbar } from "overlay-navbar";
-import logo from "../../../images/logo.png";
+import logo from "../../../images/E.png";
 
 const options = {
   burgerColor:"#eb4034",
   burgerColorHover: "#eb4034",
   logo,
-  logoWidth: "20vmax",
+  logoWidth: "3vmax",
+  // height:'10px',
   navColor1: "white",
-  logoHoverSize: "10px",
+  // logoHoverSize: "10px",
   logoHoverColor: "#eb4034",
   link1Text: "Home",
   link2Text: "Products",
@@ -37,7 +38,7 @@ const options = {
 };
 
 const Header = () => {
-  return <ReactNavbar {...options} />;
+  return <ReactNavbar  clasName="header" {...options} />;
 };
 
 export default Header;
