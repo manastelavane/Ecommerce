@@ -2,6 +2,18 @@
 
 https://ecommerce-manas.herokuapp.com/
 
+#Features
+
+- Shopping cart: allows customers to add items to their virtual cart as they shop on the site.
+- Product pages: dedicated pages for each product that include detailed information and images of the product.
+- Search bar: allows customers to search for specific products on the site.
+- Filters: allow customers to narrow down their search results by various criteria such as category,price, ratings , etc.
+- Customer reviews: allow customers to leave reviews and ratings for products, which can help other customers in their purchasing decision.
+- Mobile optimization: ensure that the website is easily usable on mobile devices.
+- Payment gateways: integrate with payment processors to allow customers to securely pay for their purchases.
+- Order tracking: allow customers to track the status of their orders and receive updates via email or SMS.
+- Admin Panel : Admin can track orders, product stocks, various analytics graphs.
+
 # Install Dependencies
 
 **For Backend** - `npm i`
