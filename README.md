@@ -1,6 +1,6 @@
 # MERN E-COMMERCE TUTORIAL
 
-https://ecommerce-manas.herokuapp.com/
+http://ecommerce-manas.onrender.com/
 
 #Features
 
