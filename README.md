@@ -10,8 +10,8 @@ http://ecommerce-manas.onrender.com/
 - Filters: allow customers to narrow down their search results by various criteria such as category,price, ratings , etc.
 - Customer reviews: allow customers to leave reviews and ratings for products, which can help other customers in their purchasing decision.
 - Mobile optimization: ensure that the website is easily usable on mobile devices.
-- Payment gateways: integrate with payment processors to allow customers to securely pay for their purchases.
-- Order tracking: allow customers to track the status of their orders and receive updates via email or SMS.
+- Payment gateways: integrate payment gateway with stripe.
+- Order tracking: allow customers to track the status of their orders.
 - Admin Panel : Admin can track orders, product stocks, various analytics graphs.
 
 # Install Dependencies
